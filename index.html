@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MohamDah Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello! I am <strong>Mohamed Dahab</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-Stack Dev</p>
+        <img class="intro__img" src="images/selfiealu.jpg" alt="Selfie of me with grassy background">
+    </section>
+
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>I have deep understanding of HTML and CSS and I am capable of manipulating them skillfully to bring 
+                    your UI/UX ideas to reality.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>JavaScript interactivity</h3>
+                <p>I can build interactive and dynamic web applications using React.</p>
+            </div> <!-- / service -->
+        </div> <!-- Services -->
+
+        <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!--About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer based in Kigali</p>
+
+        <div class="about-me__body">
+            <p>Hello. My name is Mohamed, and I'm from Sudan. I've been passionate about programming since before high school. After completing online courses (CS50, CS50w) and starting a CS degree in Sudan, my studies were interrupted by the 2023 war. Following a long displacement, I was accepted into ALU's May 2024 intake. Now in Kigali, I'm focused on honing my frontend skills to complement my previous backend experience with Django. I'm committed to continuous learning and improvement.</p>
+            
+        </div>
+
+        <img class="about-me__img" src="images/frontOfALU.jpg" alt="Mohamed selfie with grass in the background">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- To be generated with JS -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:mohammedfaiseldhb@gmail.com" class="footer__link">mohammedfaiseldhb@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/MohamDahALU" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/mohamdah/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+           
+        </ul>
+    </footer>
+
+    <script type="module" src="js/index.js"></script>
+
+</body>
+
+</html>
